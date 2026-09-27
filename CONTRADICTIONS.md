@@ -1,43 +1,35 @@
-# Registre des contradictions
+# Contradictions et divergences à instruire
 
-Ajouter une section par divergence ; ne pas effacer les décisions antérieures. Statuts : open, investigating, proposed_resolution, resolved (validation humaine uniquement).
-
-## Modèle à copier
-- contradiction_id : CON-YYYYMMDD-<slug>
-- Objet / indicateur :
-- Preuve A : valeur, unité, devise, période, périmètre ; source_id + document + page PDF + date de publication
-- Preuve B : valeur, unité, devise, période, périmètre ; source_id + document + page PDF + date de publication
-- Écart et impact sur l'analyse / les modèles :
-- Explications possibles (hypothèses, pas conclusions) :
-- Vérifications réalisées / à faire :
-- Statut : open
-- Détecté par / date / branche ou PR :
-- Proposition de traitement :
-- Décision humaine, justification, validateur et date :
-- Historique des changements :
+Registre consolidé au 2026-09-27. Les quatre identifiants historiques sont conservés ; une divergence interne supplémentaire est ajoutée. Aucun arbitrage humain ni résolution n’est simulé. Historique complet : [registre antérieur](99_archive/20260927-before-consolidation/CONTRADICTIONS.md) et [lot bioénergie original](<Claude outputs/CONTRADICTIONS.md>).
 
 ## CON-20260927-dechets-dangereux-cible-2027
-
-- **Objet / indicateur** : cible GreenUp 2027 de tonnage de déchets dangereux et polluants traités.
-- **Preuve A** : **9 Mt** en 2027 ; source = briefing pédagogique EDHEC (SRC-setup-20260927-capstone-brief), page PDF non précisée dans le corps du slide, date de publication du briefing inconnue (fichier non daté officiellement).
-- **Preuve B** : **10 Mt** en 2027 ; sources = SRC-veolia-20260927-greenup-launch (communiqué GreenUp, Veolia Belgique, ~28/02-06/03/2024) et SRC-veolia-20260927-greenup-strategic-page (page corporate officielle Veolia, non datée) — deux sources Veolia indépendantes convergent sur 10 Mt.
-- **Écart et impact** : 1 Mt d'écart (+11%) sur un indicateur central du rôle 2 (analyse cœur) et du rôle 1 (scope). Change la base de calcul de l'écart stratégique 2027 si le mauvais chiffre est utilisé.
-- **Explications possibles** : le briefing pédagogique a pu arrondir, se référer à une version antérieure de la cible GreenUp (le programme a pu être ajusté depuis son lancement), ou contenir une erreur de transcription. Les deux sources Veolia consultées sont plus récentes/directement officielles que le briefing pédagogique.
-- **Vérifications réalisées** : recoupement de deux pages Veolia indépendantes (communiqué de lancement + page corporate), toutes deux affichant 10 Mt. Aucune version antérieure du communiqué GreenUp avec un chiffre à 9 Mt n'a été recherchée spécifiquement.
-- **Statut** : open.
-- **Détecté par / date** : Claude (Cowork), agent Source Veolia, 2026-09-27, branche agent/setup-data-room.
-- **Proposition de traitement** : utiliser 10 Mt comme référence (sources Veolia officielles, plus récentes) mais signaler explicitement l'écart avec le briefing pédagogique dans le rapport final, sans le corriger silencieusement. Chercher si une version antérieure du plan GreenUp (2023) mentionnait 9 Mt, ce qui expliquerait un chiffre daté dans le briefing.
-- **Décision humaine, justification, validateur et date** : en attente.
+Statut : **investigating**. Signalement historique : cible du briefing versus communications GreenUp (SRC-setup-20260927-capstone-brief, SRC-veolia-20260927-greenup-launch, SRC-veolia-20260927-greenup-strategic-page).
+Les valeurs historiques et leurs références incomplètes restent dans les versions liées ci-dessus. Relever les pages, dates et définitions exactes avant de retenir une base de calcul. Plusieurs publications Veolia ne constituent pas des preuves indépendantes. Aucune cible n’est arbitrée ici. Décision humaine : en attente.
 
 ## CON-20260927-fitch-rating
+Statut : **proposed_resolution**, proposition de requalification en attribution non étayée, à valider humainement.
+La précédente entrée attribuait « S&P/Fitch BBB » au briefing. Le contrôle du texte des 52 pages ne retrouve aucune occurrence de Fitch ; le contrôle ciblé de la page PDF 18 montre les mentions BBB/Baa1. Référence : SRC-setup-20260927-capstone-brief | 00_brief/SRC-setup-20260927-capstone-brief__capstone-project-briefing.pdf | page PDF 18 | publication unknown. Cela ne justifie pas l’attribution antérieure à une troisième agence.
+La référence secondaire SRC-credit-20260927-fitch-withdrawal reste conservée, sans confirmation primaire nouvelle du retrait. L’absence de Fitch dans un rapport Moody’s ou S&P ne prouve pas le retrait. Ne pas présenter ce signalement comme une contradiction avérée entre le briefing et Fitch. Historique conservé, aucune suppression. Décision humaine : en attente.
 
-- **Objet / indicateur** : nombre et identité des agences de notation suivant Veolia (contrainte du workstream capacité financière, rôle 3).
-- **Preuve A** : le briefing pédagogique (SRC-setup-20260927-capstone-brief) mentionne une notation Moody's Baa1 et une notation "S&P/Fitch BBB", implicitement 3 agences actives.
-- **Preuve B** : SRC-credit-20260927-fitch-withdrawal (MarketScreener, 12/06/2024) indique que **Fitch a retiré sa notation de Veolia pour raisons commerciales** ; corroboré par l'absence totale de Fitch sur SRC-credit-20260927-debt-ratings-page (page officielle Veolia "Debt & ratings", consultée 2026-09-27) qui ne liste que Moody's et S&P.
-- **Écart et impact** : le modèle de capacité financière (rôle 3) ne doit contraindre que sur 2 agences actives (Moody's Baa1, S&P BBB), pas 3. Un modèle qui suppose une contrainte Fitch active serait fondé sur une donnée obsolète depuis juin 2024.
-- **Explications possibles** : le briefing pédagogique a pu être rédigé ou basé sur une source antérieure à juin 2024, ou reprendre une convention de langage générique "Moody's/S&P/Fitch" sans vérification à jour pour cet émetteur précis.
-- **Vérifications réalisées** : recoupement de deux sources indépendantes (article de presse spécialisée + page officielle Veolia sans mention Fitch).
-- **Statut** : open.
-- **Détecté par / date** : Claude (Cowork), agent Source Crédit & capacité, 2026-09-27, branche agent/setup-data-room.
-- **Proposition de traitement** : utiliser explicitement 2 agences actives (Moody's, S&P) dans le modèle et le rapport, en mentionnant le retrait Fitch (2024) comme point factuel plutôt que de l'ignorer silencieusement.
-- **Décision humaine, justification, validateur et date** : en attente.
+## CON-20260927-ca-energie-2023-base
+Statut : **investigating**. Les trois formulations historiques proviennent de SRC-bioenergy-20260927-near-me-greenup-page, SRC-bioenergy-20260927-4bn-investment-announcement et SRC-bioenergy-20260927-greenup-cmd-feb2024.
+Une borne « supérieur à » et deux montants de périmètres potentiellement différents ne forment pas nécessairement une contradiction. Retirer l’interprétation antérieure d’un écart arithmétique exact ; ne pas assimiler énergie totale et bioénergie seule. Le sous-chiffre issu d’extraction CMD reste non validé faute de relecture des pages. Les trois publications sont du même émetteur. Aucune base chiffrée n’est arbitrée. Décision humaine : en attente.
+
+## CON-20260927-valenton-capacite
+Statut : **investigating**. Signalement reçu entre SRC-bioenergy-20260927-valenton-biomethane-siaap et SRC-bioenergy-20260927-greenup-cmd-feb2024 ; valeurs historiques conservées dans le lot original.
+Récupérer les pages originales et distinguer capacité, production, injection, biogaz/biométhane et période. La différence peut provenir de grandeurs non comparables. La préférence antérieure pour l’article le plus récent n’est pas une validation. Aucune valeur n’est retenue pour le modèle sans ce rapprochement. Décision humaine : en attente.
+
+## Journal de correction
+Codex, 2026-09-27 : consolidation des deux registres, correction de l’attribution Fitch, retrait des conclusions d’indépendance des publications Veolia et de l’écart arithmétique non démontré ; aucun passage en resolved.
+
+## Gabarit pour une nouvelle divergence
+Identifiant stable ; objet ; preuves A/B avec source_id + document + page + date + unité + période + périmètre ; impact ; hypothèses ; contrôles réalisés ; statut ; proposition ; décision humaine nominative et datée ; historique.
+
+## CON-20260927-sp-ffo-forecast
+Statut : **open**. Détecté par Codex le 2026-09-27.
+- Preuve A : prévision narrative FFO ajusté/dette de 20–22% sur 2026–2028, page PDF 1.
+- Preuve B : tableau 19–20% en 2026, 20–21% en 2027, 21–22% en 2028, page PDF 4.
+- Source commune : SRC-credit-20260927-sp-ratingsdirect-tearsheet-bonus | raw/SRC-credit-20260927-sp-ratingsdirect-tearsheet-BONUS.pdf | publication 2026-04-27.
+- Impact : le point bas annuel retenu dans un scénario de capacité financière varie selon la série.
+- Hypothèse : synthèse narrative arrondie ou incohérence rédactionnelle ; non tranchée. Conserver les deux formulations, distinguer prévisions et critères de notation, demander clarification avant arbitrage.
+- Décision humaine : en attente. Aucun chiffre corrigé dans le PDF.

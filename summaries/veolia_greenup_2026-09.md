@@ -16,6 +16,8 @@ source_ids:
 notes: Résumé groupé (plusieurs sources), voir SOURCES.csv pour le détail ligne par ligne de chaque source_id. Aucun PDF téléchargé physiquement dans raw/ (réseau restreint dans cet environnement) — deux sources ci-dessous sont pourtant des PDF officiels hébergés sur veolia.com, à télécharger manuellement pour passer en "primaire complet" (voir GAPS.md).
 ---
 
+> **Contrôle du 27 septembre 2026.** Synthèse historique de travail. Les chiffres sans référence complète et les statuts annoncés dans le corps ne valent pas validation actuelle. Le registre SOURCES.csv et les résumés individuels contrôlés prévalent ; les copies avant correction sont conservées dans 99_archive. Les textes réglementaires et les multiples restent à vérifier avant emploi final.
+
 # Veolia — résultats et programme GreenUp
 
 ## En bref

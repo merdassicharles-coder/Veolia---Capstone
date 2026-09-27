@@ -12,3 +12,5 @@ Mêmes six rôles que dans le briefing (voir `00_brief/`), appliqués au sujet 2
 | 6 | [06_synthesis_tool_pitch](06_synthesis_tool_pitch/README.md) | Synthèse, cohérence et pitch : détecte les contradictions entre rôles 2 à 5 | Tous (assemblage humain) |
 
 Chaque rôle applique [AGENTS.md](../AGENTS.md), cite via `SOURCES.csv` / `INDEX.md`, et consigne ses lacunes dans [GAPS.md](../GAPS.md). Les workstreams ne dupliquent pas les documents : ils renvoient vers `raw/`, `summaries/`, `data/` et les dossiers thématiques 01-07.
+
+Les noms thématiques d’agents dans ce tableau décrivent des fonctions de recherche historiques, pas des processus actifs. Le fonctionnement actuel repose sur les trois rôles Source, Verification et Contradiction définis dans AGENTS.md, chacun pouvant intervenir sur ces thèmes.

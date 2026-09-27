@@ -1,48 +1,121 @@
-# Lacunes et zones d'incertitude
+# Lacunes — registre consolidé
 
-Registre des trous connus dans la data room : ce qui manque, ce qui est incertain, ce qui reste à vérifier. Un registre vide ou court ne prouve rien — le tenir à jour à chaque ingestion et avant chaque checkpoint.
+État au 2026-09-27. Tous les identifiants des deux registres reçus sont conservés. Les descriptions et décisions historiques complètes restent dans [l’archive racine](99_archive/20260927-before-consolidation/GAPS.md) et [le lot importé](<Claude outputs/GAPS.md>). `filled` décrit la lacune précise, jamais la validation de toute une analyse.
 
-Statuts : `open` (personne n'a encore comblé la lacune), `in_progress`, `filled` (source ajoutée, à vérifier), `wont_fill` (justifié).
+## GAP-20260927-bioenergy-comparables-depth
+in_progress — Analyses importées intégrées ; fourchette de multiples non validée, données de marché à synchroniser et sources à contrôler.
 
-## Modèle à copier
-- gap_id : GAP-YYYYMMDD-<slug>
-- Rôle / workstream concerné :
-- Ce qui manque et pourquoi c'est nécessaire :
-- Piste(s) de source pour combler :
-- Statut :
-- Ouvert par / date :
-- Comblé par / date / source_id :
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
 
-## Lacunes comblées le 2026-09-27 (collecte des 5 agents — à vérifier par un humain ou un Verification Agent)
+## GAP-20260927-bioenergy-regulation
+open — Références trouvées, dispositions applicables et versions en vigueur non validées exhaustivement.
 
-- GAP-20260927-veolia-2025-annual-report — **filled** — Résultats FY2025 et H1 2026 trouvés (communiqués PDF officiels sur veolia.com), voir SRC-veolia-20260927-fy2025-results et SRC-veolia-20260927-h1-2026-results. Le Document d'enregistrement universel (URD) lui-même n'a en revanche pas été localisé — reste à chercher (piste : veolia.com/en/investors ou AMF/info-financiere.fr).
-- GAP-20260927-veolia-debt-maturity — **partiellement filled** — Les deux chiffres de dette nette (20 764 M€ au 30/06/2025, 24 548 M€ au 30/06/2026) et la définition du levier sont confirmés à la publication officielle (SRC-veolia-20260927-h1-2026-results). Le **profil de maturité de la dette (échéancier par année) reste introuvable publiquement** — statut : open pour cette partie.
-- GAP-20260927-rating-reports — **partiellement filled** — Notations Moody's (Baa1 stable, Credit Opinion PDF officiel republié par Veolia, seuils de dégradation FFO/dette nette trouvés) et S&P (BBB stable, relais Cbonds) documentées. **Découverte importante : Fitch ne note plus Veolia depuis le 12/06/2024** (notation retirée) — voir CONTRADICTIONS.md, CON-20260927-fitch-rating. Rapports complets (RatingsDirect S&P) toujours inaccessibles (abonnement) — statut : open pour cette partie.
-- GAP-20260927-water-technologies-clean-earth — **filled** — Communiqué officiel Veolia (PDF, SRC-transactions-20260927-wts-cdpq) et communiqué Enviri Corporation (GlobeNewswire, SRC-transactions-20260927-clean-earth-enviri) trouvés et confirment les chiffres du briefing pédagogique.
-- GAP-20260927-comparables — **filled** — Comparables identifiés pour les 3 boosters (voir summaries/comparables_2026-09.md). Le booster bioénergie reste pauvre en comparables (un seul pure-player coté, EnviTec Biogas) — voir nouvelle lacune GAP-20260927-bioenergy-comparables-depth ci-dessous.
-- GAP-20260927-bioenergy-regulation — **filled** — RED III, IED, CSRD et réglementation française biométhane documentées (voir summaries/regulation_2026-09.md). Quelques articles opérationnels fins non extraits (voir nouvelles lacunes ci-dessous).
-- GAP-20260927-tuck-ins-2025 — **wont_fill, confirmé** — Le communiqué officiel Veolia North America confirme explicitement l'absence de prix individuel public ; seul un montant agrégé non ventilable (~350 M$ sur 5 transactions dont 2 hors périmètre) est disponible. Ne pas utiliser ce chiffre comme proxy de valorisation individuelle.
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
 
-## Lacunes comblées le 2026-09-27 (téléchargement manuel par Lorenzo)
+## GAP-20260927-ca-energie-2023-base
+open — Périmètres à rapprocher ; une borne « supérieur à » ne permet pas un écart arithmétique exact. Voir contradiction associée.
 
-- GAP-20260927-pdf-download-manuel — Rôle 1 — **partiellement filled.** Lorenzo a téléchargé et déposé 7 PDF officiels dans `raw/`. Contrôlés (SHA-256 + pagination) et passés `status=verified` dans SOURCES.csv, avec résumé individuel page-cité créé pour chacun :
-  - Finance_PR_Veolia_2025_results.pdf → SRC-veolia-20260927-fy2025-results ✅
-  - Finance_PR_acquisition_water_technologies_solutions_05-07-2025_0.pdf (nommé cp-wts-070525.pdf) → SRC-transactions-20260927-wts-cdpq ✅
-  - Veolia_Clean_Earth_Investor_Presentation.pdf → SRC-transactions-20260927-clean-earth-investor-presentation ✅
-  - Credit_Opinion_Veolia-Environnement-2Dec2025.pdf → SRC-credit-20260927-moodys-credit-opinion ✅
-  - **Bonus (non prévus initialement, ajoutent de la valeur)** : présentation H1 2026 (SRC-veolia-20260927-h1-2026-presentation-bonus), Credit Opinion Moody's 4 mai 2026 (voir avertissement ci-dessous), S&P RatingsDirect Tear Sheet 27 avr. 2026 (SRC-credit-20260927-sp-ratingsdirect-tearsheet-bonus) — comble partiellement GAP-20260927-sp-thresholds.
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
 
-  **Reste à télécharger** (toujours open, priorité avant le 7 octobre) :
-  - Veolia_Finance_PR_H1_2026_results.pdf (communiqué de presse officiel H1 2026 — distinct de la présentation investisseurs déjà obtenue) — URL dans SOURCES.csv, source_id SRC-veolia-20260927-h1-2026-results.
-  - Renewi Annual Report and Accounts 2025 (renewi.com) — URL dans SOURCES.csv, source_id SRC-comparables-20260927-renewi-fy2025.
+## GAP-20260927-cdpq-press-release
+open — Reprise pour contrôle ; aucun nouveau contrôle de fond effectué. Dernière description reçue : GAP-20260927-cdpq-press-release — Rôle 1 — Aucun communiqué CDPQ distinct trouvé pour la cession de ses 30% de Water Technologies (seule la source Veolia documente officiellement la transaction côté officiel). Statut : open, faible priorité.
 
-- **GAP-20260927-document-confidentiel-moodys-mai2026** — Rôle 3 — **NOUVELLE LACUNE, PRIORITÉ HAUTE.** Le PDF `SRC-credit-20260927-moodys-credit-opinion-may2026-bonus` (Credit Opinion Moody's daté du 4 mai 2026) porte la mention **"DRAFT - CONFIDENTIAL"** en filigrane sur chaque page, contrairement à la version du 2 décembre 2025 qui n'a aucune mention de ce type. Ce n'est donc apparemment pas une publication publique finalisée. Action requise : demander à Lorenzo la provenance exacte de ce fichier (site officiel ? relais tiers ? autre ?) ; si la légitimité/le caractère public ne peut pas être établi, retirer ce document du data room et ne pas citer ses chiffres (parts d'EBITDA Eau/Déchets 2025 à 48%/32%) dans le rapport final — utiliser à la place SRC-veolia-20260927-fy2025-results et SRC-veolia-20260927-h1-2026-presentation-bonus pour les mêmes informations obtenues par une voie non ambiguë. Statut : open, décision humaine requise (aucune résolution silencieuse, conformément à AGENTS.md).
-- GAP-20260927-veolia-debt-maturity-echeancier — Rôle 3 — Profil de maturité de la dette (échéancier par année) toujours introuvable publiquement. Statut : open.
-- GAP-20260927-sp-thresholds — Rôle 3 — **partiellement filled** — Le Tear Sheet S&P officiel (SRC-credit-20260927-sp-ratingsdirect-tearsheet-bonus, gratuit) donne une fourchette cible FFO ajusté/dette de 20%-22% sur 2026-2028 pour le maintien du 'BBB' (p.1). Le rapport RatingsDirect complet avec la méthodologie détaillée des seuils reste sous abonnement — statut : open pour cette partie seulement, pourrait nécessiter l'accès bibliothèque EDHEC.
-- GAP-20260927-bioenergy-comparables-depth — Rôle 2 — Le booster bioénergie manque de comparables cotés à l'échelle de Veolia (seul EnviTec Biogas identifié, échelle ~100x plus petite). Verbio (Allemagne) n'a pas été recherché spécifiquement — piste à explorer. Données financières 2024-2025 de la division biométhane Engie non accessibles (PDF sur engie.com non ouverts dans cet environnement) ; CA/EBITDA de l'activité biogaz TotalEnergies non publiés. Statut : open.
-- GAP-20260927-water-comparables-multiples — Rôle 4 — Aucune transaction comparable récente (2024-2026) en eau industrielle avec multiple EV/EBITDA publié trouvée via sources gratuites. Statut : open — pourrait nécessiter Mergermarket/CapitalIQ (accès EDHEC).
-- GAP-20260927-greenup-capital-markets-day — Rôle 1 / Rôle 2 — Le Capital Markets Day GreenUp (février 2024), qui documenterait vraisemblablement le booster "bioénergie et efficacité énergétique" en détail, n'a pas été localisé en accès libre. Chiffres provisoires (8 GW bioénergie 2030, 3 GW flexible, 12 Md€ CA sectoriel 2023) trouvés via un résumé automatisé non confirmé indépendamment — **ne pas les utiliser sans confirmation**. Statut : open — priorité haute pour le workstream 2.
-- GAP-20260927-red-iii-articles — Rôle 5 — Articles opérationnels détaillés de RED III sur les critères de durabilité biomasse par filière non extraits (rendu JavaScript côté EUR-Lex). Statut : open.
-- GAP-20260927-csrd-stopclock-url — Rôle 5 — URL EUR-Lex exacte de la directive "stop-the-clock" (Omnibus I, report CSRD) non retrouvée précisément. Statut : open.
-- GAP-20260927-greenup-launch-date — Rôle 1 — Date de publication exacte du communiqué de lancement GreenUp : deux dates circulent (fin février vs 6 mars 2024) — non tranchée. Statut : open.
-- GAP-20260927-cdpq-press-release — Rôle 1 — Aucun communiqué CDPQ distinct trouvé pour la cession de ses 30% de Water Technologies (seule la source Veolia documente officiellement la transaction côté officiel). Statut : open, faible priorité.
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-comparables
+in_progress — Liste et pistes enrichies ; homogénéiser périodes, devises, définition EBITDA et valeur d’entreprise avant valorisation.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-csrd-stopclock-url
+in_progress — Référence importée identifiée ; portée des modifications et texte applicable à contrôler avant conclusion juridique.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-document-confidentiel-moodys-mai2026
+in_progress — Provenance publique confirmée sur la page Debt and ratings de Veolia. Filigrane DRAFT - CONFIDENTIAL persistant : finalité éditoriale à confirmer. Original conservé, status=blocked ; aucune demande de suppression.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-france-textes-403
+open — Reprise pour contrôle ; aucun nouveau contrôle de fond effectué. Dernière description reçue : GAP-20260927-france-textes-403 — Rôle 5 — Deux textes réglementaires français importants sur le biométhane n'ont pu être lus en détail (page Légifrance en erreur 403 au moment de la recherche, référence bibliographique confirmée par recoupement uniquement) : l'arrêté du 10 août 2026 (modificatif le plus récent du régime tarifaire biométhane) et le décret n° 2021-1273 du 30 septembre 2021 (base légale des appels d'offres CRE). Statut : open — à retenter en fetch direct ou à demander à Lorenzo de télécharger via Légifrance.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-greenup-capital-markets-day
+in_progress — URL du CMD identifiée dans le registre, PDF absent de ce lot ; relecture des pages nécessaire. Plusieurs communications Veolia ne sont pas des sources indépendantes.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-greenup-launch-date
+open — Distinguer date de lancement et date de chaque republication locale ; pas de jour inventé.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-loi-climat-resilience-art95-url
+open — Reprise pour contrôle ; aucun nouveau contrôle de fond effectué. Dernière description reçue : GAP-20260927-loi-climat-resilience-art95-url — Rôle 5 — URL Légifrance exacte de l'article 95 de la loi n° 2021-1104 du 22 août 2021 (certificats de production de biométhane sans soutien public) non capturée précisément. Statut : open, faible priorité.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-nature-energy-multiple-non-officiel
+open — Reprise pour contrôle ; aucun nouveau contrôle de fond effectué. Dernière description reçue : GAP-20260927-nature-energy-multiple-non-officiel — Rôle 2/4 — Le seul multiple EV/EBITDA trouvé pour une transaction bioénergie majeure (Shell/Nature Energy, ≈24,1x) provient d'une source secondaire d'agrégation M&A (mainsights.io), non confirmée par les parties. Ne pas le citer comme un fait établi dans le mémoire sans le qualifier explicitement d'estimation tierce. Statut : wont_fill (source primaire indisponible gratuitement), à utiliser avec la réserve indiquée.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-pdf-download-manuel
+in_progress — Les originaux du lot reçu sont préservés ; communiqué H1 et rapport Renewi restent à archiver. Intégrité ne signifie pas validation de toutes les analyses.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-rating-reports
+in_progress — PDF Moody’s décembre et S&P avril disponibles ; interprétations corrigées dans les résumés individuels. Méthodologie complète et rapprochement des ajustements restent à produire.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-red-iii-articles
+open — Seuils et périmètres d’application à contrôler sur texte officiel ; résumé secondaire insuffisant.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-sp-thresholds
+filled — Critères baissier/haussier identifiés pages PDF 2–3 du Tear Sheet (SRC-credit-20260927-sp-ratingsdirect-tearsheet-bonus, publication 2026-04-27). La fourchette prévisionnelle de p.1 n’est pas un seuil. Le modèle demeure à contrôler.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-tuck-ins-2025
+open — Absence de prix individuels rapportée dans l’historique ; ne pas affecter un agrégat aux seules cibles bioénergie. Justifier toute décision wont_fill.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-valenton-capacite
+open — Grandeurs et périodes à réconcilier sur pages originales ; aucune préférence chiffrée validée.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-veolia-2025-annual-report
+open — Communiqué FY2025 conservé. L’URD reste à télécharger et contrôler ; une URL officielle a été repérée : https://www.veolia.com/sites/g/files/dvc4206/files/document/2026/03/Finance_Veolia_URD_2025_en.pdf. Un communiqué ne remplace pas l’URD.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-veolia-debt-maturity
+open — Stocks de dette documentés dans la présentation H1 ; échéancier détaillé à extraire, voir aussi veolia-debt-maturity-echeancier.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-veolia-debt-maturity-echeancier
+open — Échéancier annuel non extrait dans cette consolidation. Ne pas conclure qu’il serait introuvable publiquement.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-water-comparables-multiples
+open — Reprise pour contrôle ; aucun nouveau contrôle de fond effectué. Dernière description reçue : GAP-20260927-water-comparables-multiples — Rôle 4 — Aucune transaction comparable récente (2024-2026) en eau industrielle avec multiple EV/EBITDA publié trouvée via sources gratuites. Statut : open — pourrait nécessiter Mergermarket/CapitalIQ (accès EDHEC).
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## GAP-20260927-water-technologies-clean-earth
+in_progress — PDF des annonces conservés et pages ciblées contrôlées ; distinguer annonce, conditions et clôture réalisée.
+
+Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistrée.
+
+## Travaux transversaux
+Contrôler les références sans original ; compléter les dates inconnues sans inventer de précision ; rapprocher les doublons ; réaliser une seconde revue indépendante des affirmations destinées au mémoire. Le registre ne constitue pas une couverture exhaustive de toutes les publications 2024–2026.

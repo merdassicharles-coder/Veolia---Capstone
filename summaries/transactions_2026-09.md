@@ -17,6 +17,8 @@ source_ids:
 notes: Résumé groupé. Le communiqué WTS/CDPQ et la présentation investisseurs Clean Earth sont des PDF officiels réels hébergés sur veolia.com — non téléchargés physiquement (réseau restreint), lus via outil de fetch web.
 ---
 
+> **Contrôle du 27 septembre 2026.** Synthèse historique de travail. Les chiffres sans référence complète et les statuts annoncés dans le corps ne valent pas validation actuelle. Le registre SOURCES.csv et les résumés individuels contrôlés prévalent ; les copies avant correction sont conservées dans 99_archive. Les textes réglementaires et les multiples restent à vérifier avant emploi final.
+
 # Transactions — Water Technologies, Clean Earth, tuck-ins 2025, comparable WM/Stericycle
 
 ## En bref
