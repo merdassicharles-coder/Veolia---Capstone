@@ -19,6 +19,8 @@ notes: >
   (SHA-256 + pagination) le 2026-09-27.
 ---
 
+> **Contrôle du 27 septembre 2026.** Référence : SRC-veolia-20260927-h1-2026-presentation-bonus | raw/SRC-veolia-20260927-h1-2026-presentation-BONUS.pdf | publication 2026-07-30. Le tableau comparatif p.18 donne la dette nette au 30/06/2025 et au 30/06/2026 : 20 764 M€ et 24 548 M€. Distinguer le réalisé semestriel de la prévision de levier de fin d’année. Les différences avec/sans IFRS 16 doivent être traitées selon p.35.
+
 # H1 2026 Results — Presentation (Veolia, 30 juillet 2026)
 
 ## En bref
@@ -28,10 +30,10 @@ Support de présentation des résultats du premier semestre 2026 (Estelle Brachl
 
 | Indicateur | Valeur | Variation | Page |
 |---|---|---|---|
-| Revenu | 22 193 M€ | +1,5% | p.5 |
-| EBITDA | 3 552 M€ | +5,0% | p.5 |
+| Revenu | 22 193 M€ | +1,5% à périmètre/change constants hors prix énergie (0,8% prix énergie inclus) | p.5 |
+| EBITDA | 3 552 M€ | +5,0% à périmètre et change constants | p.5 |
 | Marge d'EBITDA | 16,0% | +70 pb | p.5 |
-| EBIT courant | 1 956 M€ | +6,4% | p.5 |
+| EBIT courant | 1 956 M€ | +6,4% à périmètre et change constants | p.5 |
 | Résultat net courant | 837 M€ | +10,4% (à change constant) | p.4-5 |
 | Efficacités opérationnelles | 195 M€ | — | p.5 |
 | Dette financière nette | 24 548 M€ | inclut l'acquisition Clean Earth | p.5 |
@@ -51,3 +53,5 @@ Confirme le chiffre de dette nette (24 548 M€) déjà cité dans le communiqu�
 
 ## Contradiction liée
 Aucune contradiction nouvelle. Corrobore les chiffres de dette nette déjà utilisés dans summaries/veolia_greenup_2026-09.md et summaries/credit_capacity_2026-09.md.
+
+Précision comptable (p.4–5) : EBIT courant et résultat net courant sont présentés avant PPA Suez et Clean Earth ; le résultat net courant est part du groupe.

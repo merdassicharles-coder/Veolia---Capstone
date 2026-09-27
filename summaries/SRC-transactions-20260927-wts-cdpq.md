@@ -14,12 +14,14 @@ page_count: 3
 notes: PDF officiel téléchargé et contrôlé (SHA-256 + pagination) le 2026-09-27. Remplace, pour ce document, l'entrée provisoire du résumé groupé summaries/transactions_2026-09.md.
 ---
 
+> **Contrôle du 27 septembre 2026.** Annonce du 7 mai 2025, corroborée par la publication officielle Veolia. Les termes d’acquisition sont p.1 ; la clôture attendue figure p.2. Ne pas présenter une date attendue comme une clôture effectivement vérifiée.
+
 # Acquisition des 30% CDPQ dans Water Technologies and Solutions (WTS)
 
 ## En bref
 Veolia rachète les 30% de Water Technologies and Solutions (WTS) détenus par CDPQ, portant sa participation à 100%. Prix : 1,75 Md$ (~1,5 Md€), soit ~11x l'EBITDA 2025 estimé post-synergies. Synergies de coûts supplémentaires attendues : ~90 M€ d'ici 2027. Closing attendu fin juin 2025.
 
-## Chiffres et faits clés (p.1)
+## Chiffres et faits clés (p.1 ; closing attendu p.2)
 
 | Élément | Valeur |
 |---|---|
@@ -30,7 +32,7 @@ Veolia rachète les 30% de Water Technologies and Solutions (WTS) détenus par C
 | Cible de croissance EBITDA WTS | ≥+10% par an en moyenne sur 2023-2027 |
 | Impact relutif | à partir de 2026 |
 | Impact sur levier | Veolia conserve une marge de manœuvre vs objectif Dette Nette/EBITDA de 3x |
-| Closing attendu | fin juin 2025 |
+| Closing attendu à la date d’annonce | fin juin 2025 (p.2) |
 
 ## Citations
 - "Le prix d'acquisition est de 1,75 milliard de dollars (~1,5 milliard d'euros), correspondant à ~11x l'EBITDA 2025 estimé post synergies." (p.1)

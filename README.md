@@ -1,40 +1,37 @@
-# Veolia — Capstone
-EDHEC Capstone — Veolia GreenUp 2027 — Bioénergie et capacité financière.
+# Veolia — Capstone : data room
 
-Data room privée et auditable : conserver les preuves, tracer les chiffres et préparer les analyses. Les agents proposent ; les humains approuvent et fusionnent les PR.
+Base documentaire commune pour GreenUp, bioénergie, dette et notation, avec comparables, transactions et réglementation. Les sources historiques antérieures au périmètre 2024–2026 restent conservées.
 
-## Démarrage
-1. Lire [AGENTS.md](AGENTS.md) et le [briefing](00_brief/README.md).
-2. Consulter [SOURCES.csv](SOURCES.csv) avant toute recherche pour éviter les doublons.
-3. Créer une branche `agent/<role>/<objet>` depuis `main`.
-4. Déposer les originaux, indexer les sources et documenter les analyses.
-5. Mettre à jour [CONTRADICTIONS.md](CONTRADICTIONS.md) et [AI_USAGE_LOG.md](AI_USAGE_LOG.md), puis ouvrir une PR pour validation humaine.
+Commencer par [INDEX.md](INDEX.md), puis [le catalogue des sources](SOURCE_CATALOG.md). Le registre unique est [SOURCES.csv](SOURCES.csv). Les contrôles et limites figurent dans [CONSOLIDATION_REPORT.md](CONSOLIDATION_REPORT.md).
 
-## Classement
-| Dossier | Contenu |
+## Où trouver quoi
+| Emplacement | Fonction |
 | --- | --- |
-| 00_brief | Briefing original et cadrage validé |
-| 01_veolia | Publications du groupe, résultats et stratégie |
-| 02_debt_rating | Dette, maturités, définitions du levier et agences de notation |
-| 03_bioenergy | Bioénergie, technologies, marchés et réglementation |
-| 04_comparables | Émetteurs comparables et méthodes de comparaison |
-| 05_transactions | Acquisitions, cessions, multiples et synergies |
-| 06_esg | Indicateurs ESG, méthodologies et limites |
-| 07_models | Modèles, hypothèses, formules et sensibilités |
-| 99_archive | Versions remplacées, jamais effacées silencieusement |
+| [00_brief](00_brief/README.md) | Briefing original et périmètre pédagogique |
+| [01_veolia](01_veolia/README.md) | Groupe, GreenUp et résultats |
+| [02_debt_rating](02_debt_rating/README.md) | Dette, notations et capacité financière |
+| [03_bioenergy](03_bioenergy/README.md) | Cinq analyses bioénergie et vue des sources associées |
+| [04_comparables](04_comparables/README.md) | Comparables et méthodes de valorisation |
+| [05_transactions](05_transactions/README.md) | Acquisitions et multiples publiés |
+| [06_esg](06_esg/README.md) | Réglementation et durabilité |
+| [07_models](07_models/README.md) | Futurs modèles, hypothèses et calculs |
+| [raw](raw/README.md) | PDF originaux, jamais réécrits |
+| [summaries](summaries/README.md) | Résumés et points de contrôle des PDF |
+| [data](data/README.md) | Historique des corrections et doublons signalés |
+| [workstreams](workstreams/README.md) | Répartition du travail entre les rôles du projet |
+| [99_archive](99_archive/README.md) | Versions antérieures conservées pour audit |
+| [Claude outputs](<Claude outputs/README.md>) | Lot importé original, conservé intégralement |
 
-## Index des sources
-CSV UTF-8 avec en-tête, virgule comme séparateur et guillemets CSV pour les champs contenant virgules ou retours à la ligne. Une ligne par version de document ; aucun identifiant réutilisé.
-- `source_id` : identifiant stable `SRC-<role>-YYYYMMDD-<slug>`.
-- `title, issuer, source_type, topic` : titre, émetteur, nature (primary/secondary/briefing), thème.
-- `publication_date` : date publiée ISO YYYY-MM-DD ou `unknown` ; ne pas la déduire de la date de téléchargement ou des métadonnées.
-- `retrieved_date, original_url, file_path` : date de collecte, provenance (URL ou référence à une pièce jointe), chemin relatif.
-- `sha256` : empreinte des octets originaux ; `page_count, relevant_pages` : pages physiques PDF, numérotées à partir de 1.
-- `status` : collected / verified / blocked / superseded. verified signifie contrôle documentaire, pas approbation humaine de l'analyse.
-- `collected_by, verified_by, verified_date, notes` : piste d'audit ; champs de vérification vides tant que non contrôlés.
+## Comment lire les statuts
+98 références sont enregistrées, dont 66 issues du lot bioénergie. Ce ne sont pas 98 documents téléchargés : huit PDF sont présents, briefing compris. Deux groupes d’URL identiques sont signalés, sans supprimer d’identifiant.
 
-Nom des documents : `<source_id>__<titre-court>.pdf`. Conserver le nom original dans notes. Les nouvelles versions reçoivent un nouvel identifiant et un lien vers l'ancienne.
+- `verified` : six documents ont fait l’objet d’un contrôle documentaire ciblé ; cela ne valide pas automatiquement chaque chiffre de toutes les analyses.
+- `collected` : 53 références identifiées restent à contrôler.
+- `blocked` : 39 références comportent un obstacle explicite, notamment une date inconnue. Elles restent consultables, mais ne fondent pas les conclusions validées.
 
-## Gouvernance
-Les profils Source, Verification et Contradiction sont définis dans AGENTS.md, avec prompts de lancement. Aucun agent permanent, calendrier ou accès autonome n'est activé par ces fichiers.
-La règle de revue humaine est documentaire. La protection technique de `main` doit être configurée par un administrateur : PR obligatoire, approbation humaine, pas de push direct ni de contournement, selon les options disponibles. Aucune protection n'est réputée active sans vérification.
+Les arbitrages restent dans [CONTRADICTIONS.md](CONTRADICTIONS.md) et les travaux à terminer dans [GAPS.md](GAPS.md). Les fichiers historiques ne constituent pas des instructions actuelles.
+
+## Fonctionnement des agents
+Les trois rôles sont définis dans [AGENTS.md](AGENTS.md) : collecte → vérification → comparaison. Ils ne sont pas des services qui tournent seuls ; aucune automatisation de recherche n’est configurée ici. Les agents peuvent ajouter et corriger des contenus sur `agent/*` sans validation préalable de chaque ajout, en conservant les versions et en ouvrant une PR. La fusion dans `main` reste humaine. Les interventions sont consignées dans [AI_USAGE_LOG.md](AI_USAGE_LOG.md).
+
+La visibilité observée du dépôt est publique au moment de la consolidation ; cette opération ne modifie pas ses paramètres.

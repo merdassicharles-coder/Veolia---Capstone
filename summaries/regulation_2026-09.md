@@ -17,6 +17,8 @@ source_ids:
 notes: Résumé groupé. Toutes les sources EUR-Lex/Legifrance sont des pages/textes officiels primaires ; certains articles opérationnels fins n'ont pas pu être extraits (rendu JavaScript côté EUR-Lex) — à vérifier sur le PDF téléchargé manuellement.
 ---
 
+> **Contrôle du 27 septembre 2026.** Synthèse historique de travail. Les chiffres sans référence complète et les statuts annoncés dans le corps ne valent pas validation actuelle. Le registre SOURCES.csv et les résumés individuels contrôlés prévalent ; les copies avant correction sont conservées dans 99_archive. Les textes réglementaires et les multiples restent à vérifier avant emploi final.
+
 # Régulation — bioénergie, déchets dangereux, CSRD
 
 ## En bref

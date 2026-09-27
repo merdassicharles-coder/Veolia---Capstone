@@ -16,7 +16,7 @@ notes: PDF officiel S&P (Tear Sheet, pas le rapport RatingsDirect complet sous a
 # S&P Global Ratings — Tear Sheet Veolia Environnement S.A. (27 avril 2026)
 
 ## En bref
-Document S&P officiel (résumé d'une page, pas une action de notation formelle : "This report does not constitute a rating action"). Confirme la notation BBB et donne des projections chiffrées 2026-2028 ainsi que le détail financier de l'acquisition Clean Earth du point de vue de l'agence.
+Document S&P officiel (Tear Sheet de huit pages, pas une action de notation formelle : "This report does not constitute a rating action"). Confirme la notation BBB et donne des projections chiffrées 2026-2028 ainsi que le détail financier de l'acquisition Clean Earth du point de vue de l'agence.
 
 ## Chiffres clés (p.1)
 
@@ -33,13 +33,14 @@ Document S&P officiel (résumé d'une page, pas une action de notation formelle 
 | Synergies run-rate Clean Earth visées (2030) | 120 M$ | p.1 |
 | Synergies Suez cumulées 2022-2025 | 534 M€ (au-dessus de la cible initiale de 500 M€) | p.1 |
 | Dette ajustée S&P projetée 2028 | 26-27 Md€ (vs 24 Md€ en 2025) | p.1 |
-| **Seuil de maintien de la notation 'BBB'** | FFO ajusté / dette entre 20% et 22% sur 2026-2028 (vs 21% fin 2025) | p.1 |
+| **Prévision FFO ajusté / dette, pas seuil** | FFO ajusté / dette entre 20% et 22% sur 2026-2028 (vs 21% fin 2025) | p.1 |
 
-## Citation directe
-"Despite the projected increase in Veolia's S&P Global Ratings-adjusted debt to €26 billion-€27 billion in 2028 from €24 billion in 2025 [...] we believe the company will remain committed to a 'BBB' rating. We forecast that adjusted funds from operations (FFO) to debt will now range between 20% and 22% in 2026-2028, versus 21% at year-end 2025." (p.1)
+## Interprétation contrôlée
+La fourchette 20–22% est une prévision 2026–2028 (p.1), pas un seuil automatique de dégradation. Le cadre de la catégorie BBB est présenté à 18–23% (p.2). Le scénario baissier vise notamment un FFO ajusté/dette qui ne resterait pas durablement au-dessus de 18% (p.3), avec d’autres facteurs de risque. Le scénario haussier combine un ratio autour de 23%, une dette/EBITDA inférieure à 3,5x et des conditions qualitatives (p.3). Ce ne sont pas des covenants ni une garantie de maintien de note.
 
-## Pertinence pour le capstone
-Comble partiellement GAP-20260927-sp-thresholds : le seuil S&P n'est pas un couple upgrade/downgrade explicite comme chez Moody's, mais une fourchette cible de FFO/dette (20%-22%) que S&P juge compatible avec le maintien du 'BBB'. Directement utilisable pour le rôle 3 (capacité financière) afin de fixer une contrainte de financement maximal pour un scénario d'acquisition bioénergie sans dégrader la notation S&P.
+Référence pour ces critères : SRC-credit-20260927-sp-ratingsdirect-tearsheet-bonus | raw/SRC-credit-20260927-sp-ratingsdirect-tearsheet-BONUS.pdf | pages PDF 1–3 | publication 2026-04-27 | prévisions 2026–2028. La notation indiquée p.2 est BBB/Stable/A-2. Le rapport précise qu’il ne constitue pas une action de notation.
 
-## Contradiction liée
-Aucune. Confirme CON-20260927-fitch-rating de façon indirecte (seuls Moody's et S&P notent Veolia dans ce document et dans SRC-credit-20260927-moodys-credit-opinion — Fitch n'apparaît nulle part).
+La précédente lecture omettait les pages 2–3. Elle est conservée dans 99_archive. L’absence de Fitch dans un rapport S&P ne prouve aucun retrait de notation ; voir CON-20260927-fitch-rating.
+
+## Divergence interne à conserver
+Le texte p.1 évoque 20–22% sur 2026–2028, tandis que le tableau p.4 présente 19–20% pour 2026, 20–21% pour 2027 et 21–22% pour 2028. Ne pas choisir silencieusement une série pour le modèle : voir CON-20260927-sp-ffo-forecast. Même source et publication, pages PDF 1 et 4.

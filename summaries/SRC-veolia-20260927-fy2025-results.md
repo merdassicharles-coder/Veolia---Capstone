@@ -16,6 +16,8 @@ page_count: 17
 notes: PDF officiel téléchargé et contrôlé (SHA-256 + pagination) le 2026-09-27. Ce résumé remplace, pour ce document précis, l'entrée provisoire dans summaries/veolia_greenup_2026-09.md (résumé groupé conservé pour les autres source_id du même thème).
 ---
 
+> **Contrôle du 27 septembre 2026.** Date de publication corrigée et tableaux de segment relus aux pages PDF 10–11. Les unités sont des millions d’euros. Les variations organiques ne sont pas les variations arithmétiques des montants publiés.
+
 # Résultats annuels FY2025 — Veolia Environnement
 
 ## En bref
@@ -40,7 +42,7 @@ Communiqué officiel Veolia daté du 26 février 2026 (Paris). Résultats FY2025
 Note méthodologique du document (p.1) : chiffres "avant PPA Suez" pour EBIT courant et résultat net courant.
 
 ## Faits clés (p.3)
-- Croissance du revenu +2,8% pcc à 44 396 M€ : Eau +3,5%, Énergie +3,0%, Déchets +1,4% (tous pcc).
+- Croissance du revenu +2,8% pcc hors prix énergie à 44 396 M€ : Eau +3,5%, Énergie +3,0%, Déchets +1,4% (tous pcc).
 - Boosters (+4,3% pcc, +8% en incluant les tuck-ins) croissent presque deux fois plus vite que les Strongholds (+2,2% pcc).
 - Gains d'efficacité totaux de 399 M€ (cible annuelle 350 M€ dépassée), dont le Digital/IA représente 23% des gains opérationnels récurrents.
 - Synergies Suez : 100 M€ en 2025, portant le cumulé 2022-2025 à 534 M€ (au-dessus de l'objectif initial).
@@ -54,7 +56,7 @@ Note méthodologique du document (p.1) : chiffres "avant PPA Suez" pour EBIT cou
 Estelle Brachlianoff (CEO) : accroissement du dividende proposé à 1,50 €/action ; "plus de 8,5 Md€ d'actifs auront été tournés durant GreenUp" (rotation de portefeuille).
 
 ## Pertinence pour le capstone (sujet 2, booster bioénergie)
-Ce communiqué confirme le cadrage macro du groupe (niveau consolidé) mais ne détaille pas le chiffre d'affaires ni l'EBITDA du booster bioénergie spécifiquement — seule la croissance agrégée "Boosters" (+4,3% pcc) est donnée p.3. Voir GAP-20260927-bioenergy-comparables-depth et GAP-20260927-greenup-capital-markets-day pour la lacune sur les chiffres désagrégés du booster bioénergie.
+Le segment publié « Bioenergies, Flexibility and Energy Efficiency » présente un CA FY2025 de 4 021 M€ (FY2024 : 3 471 M€), croissance organique de 5,1%, ou 5,8% hors prix de l’énergie (p.10), et un EBITDA FY2025 de 312 M€ (FY2024 : 246 M€), croissance à périmètre et change constants de 5,0% (p.11). Il ne représente pas la bioénergie seule. Référence : SRC-veolia-20260927-fy2025-results | raw/SRC-veolia-20260927-fy2025-results.pdf | pages PDF 10–11 | publication 2026-02-26 | exercices 2024–2025. L’estimation CMD de bioénergie seule reste non validée ; ne pas construire un pont de croissance entre ces périmètres sans réconciliation.
 
 ## Contradiction liée
 Aucune contradiction nouvelle détectée dans les pages consultées de ce document par rapport aux autres sources Veolia déjà collectées.

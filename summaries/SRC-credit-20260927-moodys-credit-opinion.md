@@ -13,10 +13,12 @@ page_count: 16
 notes: PDF officiel (republié par Veolia sur son site) téléchargé et contrôlé (SHA-256 + pagination) le 2026-09-27. Document public normal, sans mention de confidentialité. Remplace, pour ce document, l'entrée provisoire du résumé groupé summaries/credit_capacity_2026-09.md.
 ---
 
+> **Contrôle du 27 septembre 2026.** Les termes « high teens » et « low-to-mid 20s » sont des formulations de l’agence, pas des bornes numériques exactes à inventer. Référence : SRC-credit-20260927-moodys-credit-opinion | raw/SRC-credit-20260927-moodys-credit-opinion.pdf | pages PDF 1–2 | publication 2025-12-02.
+
 # Credit Opinion Moody's — Veolia Environnement S.A. (2 décembre 2025)
 
 ## En bref
-Notation Baa1, perspective stable, confirmée par Moody's le 2 décembre 2025. Le document détaille les seuils précis de dégradation/amélioration de la notation en fonction du ratio FFO/dette nette — donnée clé pour le modèle de capacité financière (rôle 3).
+Notation Baa1, perspective stable, indiquée dans la Credit Opinion publiée le 2 décembre 2025 (la date du rapport ne démontre pas à elle seule une action de notation ce jour-là). Le document détaille les critères qualitatifs et financiers de dégradation/amélioration de la notation en fonction du ratio FFO/dette nette — donnée clé pour le modèle de capacité financière (rôle 3).
 
 ## Chiffres et seuils clés (p.1-2)
 
@@ -38,7 +40,7 @@ Notation Baa1, perspective stable, confirmée par Moody's le 2 décembre 2025. L
 Ce document comble GAP-20260927-rating-reports (seuils Moody's) : les seuils FFO/dette nette (bas-moyen 20% pour un upgrade, sous ~high-teens % pour un downgrade) sont désormais cités avec la page exacte du PDF officiel, remplaçant une donnée précédemment "collected" sans PDF. Utile directement pour contraindre le modèle de capacité financière du rôle 3 (financement d'une acquisition bioénergie sans dégrader la notation).
 
 ## Contradiction liée
-Confirme CON-20260927-fitch-rating indirectement : ce rapport ne mentionne que Moody's elle-même (Fitch et S&P ne sont pas évoqués dans les pages consultées), cohérent avec le retrait de Fitch documenté par ailleurs.
+L’absence d’une autre agence dans ce rapport ne démontre pas un retrait de notation. L’attribution de Fitch au briefing n’a pas été étayée ; voir CON-20260927-fitch-rating.
 
 ## Attention
 Une version plus récente de ce même document existe (4 mai 2026, voir SRC-credit-20260927-moodys-credit-opinion-may2026-bonus) mais porte un filigrane "DRAFT - CONFIDENTIAL" — voir la note spécifique sur ce document et GAPS.md avant toute utilisation dans le rendu final.

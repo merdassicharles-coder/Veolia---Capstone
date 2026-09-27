@@ -12,3 +12,12 @@ Une entrée par intervention, ajoutée sans supprimer l'historique. Ne pas consi
 
 ## Modèle d'entrée
 Date ; agent et modèle/version si connu (sinon unknown) ; objectif et instruction résumée ; source_id d'entrée ; fichiers produits ; branche/PR ; contrôles ; erreurs et limites ; décision humaine et date si disponible.
+
+## 2026-09-27 — Consolidation et contrôle (Codex)
+- Demande utilisateur : consolider, harmoniser et organiser sans supprimer aucune source.
+- Base : agent/setup-data-room, commit 7f994637f9246e45809688077c68e43308e226fe ; intégration proposée sur agent/consolidation-data-room.
+- Fusion des deux registres, import effectif du lot bioénergie, conservation des originaux et versions antérieures, catalogue et navigation harmonisés.
+- Contrôles : empreintes/pagination des PDF, références/chemins, cohérence des vues, relecture ciblée de pages financières ; détails et résultats dans CONSOLIDATION_REPORT.md.
+- Corrections : dates FY2025/H1, segment bioénergies, critères S&P, attribution Fitch, périmètres EDF/Suez, valorisation provisoire. Provenance publique Moody’s mai confirmée ; finalité éditoriale non confirmée.
+- Les journaux antérieurs et leurs déclarations de vérification restent historiques. Cette intervention ne certifie pas toutes leurs affirmations. Aucun agent séparé indépendant n’a validé cette consolidation ; seconde revue recommandée pour les conclusions finales.
+- Aucun original supprimé, aucune fusion automatique ni modification de visibilité. PR pour revue humaine.

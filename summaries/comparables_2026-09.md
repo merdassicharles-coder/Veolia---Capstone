@@ -21,6 +21,8 @@ source_ids:
 notes: Résumé groupé. Renewi Annual Report 2025 est un PDF officiel réel (renewi.com), non téléchargé physiquement dans raw/. Les multiples "Multiples.vc" sont des données de marché live au moment de la consultation (2026-09-27), pas des données d'exercice clos.
 ---
 
+> **Contrôle du 27 septembre 2026.** Synthèse historique de travail. Les chiffres sans référence complète et les statuts annoncés dans le corps ne valent pas validation actuelle. Le registre SOURCES.csv et les résumés individuels contrôlés prévalent ; les copies avant correction sont conservées dans 99_archive. Les textes réglementaires et les multiples restent à vérifier avant emploi final.
+
 # Comparables cotés — eau industrielle, déchets dangereux, bioénergie
 
 ## En bref
