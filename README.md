@@ -1,37 +1,34 @@
-# Veolia — Capstone : data room
+# Veolia — documents du Capstone
 
-Base documentaire commune pour GreenUp, bioénergie, dette et notation, avec comparables, transactions et réglementation. Les sources historiques antérieures au périmètre 2024–2026 restent conservées.
+**Choisissez un thème ci-dessous.** Chaque page donne accès aux PDF présents, aux analyses et aux sources externes. Vous pouvez aussi ouvrir directement les dossiers numérotés : leur page d’accueil s’affiche sous la liste des fichiers.
 
-Commencer par [INDEX.md](INDEX.md), puis [le catalogue des sources](SOURCE_CATALOG.md). Le registre unique est [SOURCES.csv](SOURCES.csv). Les contrôles et limites figurent dans [CONSOLIDATION_REPORT.md](CONSOLIDATION_REPORT.md).
-
-## Où trouver quoi
-| Emplacement | Fonction |
+| Vous cherchez… | Ouvrir |
 | --- | --- |
-| [00_brief](00_brief/README.md) | Briefing original et périmètre pédagogique |
-| [01_veolia](01_veolia/README.md) | Groupe, GreenUp et résultats |
-| [02_debt_rating](02_debt_rating/README.md) | Dette, notations et capacité financière |
-| [03_bioenergy](03_bioenergy/README.md) | Cinq analyses bioénergie et vue des sources associées |
-| [04_comparables](04_comparables/README.md) | Comparables et méthodes de valorisation |
-| [05_transactions](05_transactions/README.md) | Acquisitions et multiples publiés |
-| [06_esg](06_esg/README.md) | Réglementation et durabilité |
-| [07_models](07_models/README.md) | Futurs modèles, hypothèses et calculs |
-| [raw](raw/README.md) | PDF originaux, jamais réécrits |
-| [summaries](summaries/README.md) | Résumés et points de contrôle des PDF |
-| [data](data/README.md) | Historique des corrections et doublons signalés |
-| [workstreams](workstreams/README.md) | Répartition du travail entre les rôles du projet |
-| [99_archive](99_archive/README.md) | Versions antérieures conservées pour audit |
-| [Claude outputs](<Claude outputs/README.md>) | Lot importé original, conservé intégralement |
+| Le sujet et les consignes du projet | [00 — Brief du projet](00_brief/README.md) |
+| La stratégie GreenUp et les résultats de Veolia | [01 — Veolia et GreenUp](01_veolia/README.md) |
+| La dette, les agences de notation et la capacité financière | [02 — Dette et notation](02_debt_rating/README.md) |
+| Les activités, marchés et analyses bioénergie | [03 — Bioénergie](03_bioenergy/README.md) |
+| Les entreprises comparables et leurs données | [04 — Comparables](04_comparables/README.md) |
+| Les acquisitions et multiples de transaction | [05 — Transactions](05_transactions/README.md) |
+| La réglementation et les enjeux de durabilité | [06 — ESG et réglementation](06_esg/README.md) |
+| Les modèles financiers et ce qu’il reste à construire | [07 — Modèles : aucun modèle finalisé déposé](07_models/README.md) |
 
-## Comment lire les statuts
-98 références sont enregistrées, dont 66 issues du lot bioénergie. Ce ne sont pas 98 documents téléchargés : huit PDF sont présents, briefing compris. Deux groupes d’URL identiques sont signalés, sans supprimer d’identifiant.
+## Ce qui est réellement disponible
 
-- `verified` : six documents ont fait l’objet d’un contrôle documentaire ciblé ; cela ne valide pas automatiquement chaque chiffre de toutes les analyses.
-- `collected` : 53 références identifiées restent à contrôler.
-- `blocked` : 39 références comportent un obstacle explicite, notamment une date inconnue. Elles restent consultables, mais ne fondent pas les conclusions validées.
+La consolidation précédente réunit 98 références et huit PDF, dont le briefing. Une référence avec un lien externe n’est pas nécessairement un document téléchargé. Les pages thématiques indiquent explicitement « Original non déposé » dans ce cas. Les analyses sont des documents de travail ; leur niveau de contrôle est indiqué.
 
-Les arbitrages restent dans [CONTRADICTIONS.md](CONTRADICTIONS.md) et les travaux à terminer dans [GAPS.md](GAPS.md). Les fichiers historiques ne constituent pas des instructions actuelles.
+## À quoi servent les autres dossiers ?
 
-## Fonctionnement des agents
-Les trois rôles sont définis dans [AGENTS.md](AGENTS.md) : collecte → vérification → comparaison. Ils ne sont pas des services qui tournent seuls ; aucune automatisation de recherche n’est configurée ici. Les agents peuvent ajouter et corriger des contenus sur `agent/*` sans validation préalable de chaque ajout, en conservant les versions et en ouvrant une PR. La fusion dans `main` reste humaine. Les interventions sont consignées dans [AI_USAGE_LOG.md](AI_USAGE_LOG.md).
+Vous pouvez consulter les documents depuis les thèmes ci-dessus sans parcourir ces dossiers.
 
-La visibilité observée du dépôt est publique au moment de la consolidation ; cette opération ne modifie pas ses paramètres.
+- `raw` conserve les PDF originaux ; `summaries` conserve les résumés accessibles depuis les thèmes.
+- `data` conserve les traces de contrôle ; `workstreams` décrit la répartition des travaux.
+- `Claude outputs` et `99_archive` conservent les versions historiques.
+
+Aucun de ces dossiers n’est un nouvel onglet à remplir. Ils servent au rangement et à la traçabilité.
+
+## Suivi du travail
+
+[Ce qu’il reste à vérifier](GAPS.md) · [Divergences à arbitrer](CONTRADICTIONS.md) · [Catalogue complet](SOURCE_CATALOG.md) · [Bilan de consolidation](CONSOLIDATION_REPORT.md)
+
+Pour les contributeurs : [règles des agents](AGENTS.md), [registre des sources](SOURCES.csv), [journal des interventions](AI_USAGE_LOG.md). Les modifications proposées dans une PR deviennent visibles dans la version principale après leur fusion humaine.

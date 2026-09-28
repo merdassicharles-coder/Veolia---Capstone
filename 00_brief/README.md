@@ -1,12 +1,23 @@
-# Briefing Capstone
+# Brief du projet
 
-Original conservé sans modification : [Capstone - Project Briefing.pdf](SRC-setup-20260927-capstone-brief__capstone-project-briefing.pdf).
+[← Accueil](../README.md)
 
-- source_id : SRC-setup-20260927-capstone-brief
-- Provenance : pièce jointe de la conversation « Cadrage bioénergie et dette », identifiant 6ab91107-7d18-83eb-8f67-b14975a5cf85, récupérée le 2026-09-27.
-- Nom original : Capstone - Project Briefing.pdf.
-- Pagination physique : 52 pages. Le sujet prospectif Veolia figure notamment p. PDF 31–35.
-- Date de publication : unknown. La date technique de création du fichier ne prouve pas sa date de publication.
-- Statut : collected ; contrôle indépendant à effectuer.
+## Ouvrir les documents
 
-Ce document est la référence du cadrage pédagogique. Ses chiffres financiers ne remplacent pas les publications primaires de Veolia ou des agences. Ne pas présenter une reformulation IA comme un briefing officiel validé. Le périmètre précis bioénergie/dette et les décisions de l'équipe pourront être consignés ici séparément.
+- [Briefing original — PDF](<SRC-setup-20260927-capstone-brief__capstone-project-briefing.pdf>)
+
+## Sources de ce thème
+
+1 références listées ci-dessous ; 1 disposent d’un original dans le dépôt. Une référence peut être accessible depuis plusieurs thèmes sans être dupliquée.
+
+**Lire les statuts :** « contrôle ciblé effectué » ne valide pas toute l’analyse ; « à vérifier » reste provisoire ; « point bloquant » indique une information manquante ou ambiguë. Les dates non établies sont affichées comme inconnues.
+
+| Document | Publication | Accès | État |
+| --- | --- | --- | --- |
+| Capstone - Project Briefing<br><sub>SRC-setup-20260927-capstone-brief</sub> | Date inconnue | [Ouvrir le PDF](<SRC-setup-20260927-capstone-brief__capstone-project-briefing.pdf>) | Point bloquant à lever |
+
+## Points à contrôler
+
+[Lacunes et travaux restants](../GAPS.md) · [Divergences non arbitrées](../CONTRADICTIONS.md) · [Registre complet](../SOURCES.csv)
+
+Les originaux sont conservés à leur emplacement actuel ; les liens de cette page permettent de les ouvrir directement depuis le thème.
