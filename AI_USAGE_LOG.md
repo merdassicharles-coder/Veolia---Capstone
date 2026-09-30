@@ -28,3 +28,7 @@ Date ; agent et modèle/version si connu (sinon unknown) ; objectif et instructi
 - Aucun original ni registre modifié ; aucune suppression ni nouveau dossier racine. Anciennes pages conservées dans 99_archive/20260928-navigation.
 - Contrôles : chaque lien local des dix pages de navigation résout vers un fichier présent ; chemins vérifiés contre main, base f6b0aa477e16afb6e8952c17c50cb436fce62a68. Pas de nouveau contrôle de fond des sources.
 - Proposition sur agent/navigation-par-theme ; fusion humaine selon AGENTS.md.
+
+## 2026-09-30 — Publication du lot documentaire
+
+Demande : ajouter un maximum de documents et sources pertinents, effectivement accessibles sur GitHub. Collecte du 28 septembre : 72 nouveaux fichiers PDF, 69 nouvelles références. Source Agent : comparables ; Verification Agent : réglementation puis contrôle documentaire indépendant ciblé ; Contradiction Agent : énergie puis rapprochements. Codex : Veolia/financement, téléchargements, intégration et publication. Limites et tests dans RECHERCHE_20260930.md. Aucune suppression, aucun merge automatique.
