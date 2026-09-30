@@ -13,9 +13,13 @@
 | La réglementation et les enjeux de durabilité | [06 — ESG et réglementation](06_esg/README.md) |
 | Les modèles financiers et ce qu’il reste à construire | [07 — Modèles : aucun modèle finalisé déposé](07_models/README.md) |
 
+## Nouveau lot de documents
+
+[Ouvrir le bilan et les nouveaux documents](RECHERCHE_20260930.md) : rapports officiels, comptes des comparables et études sectorielles, accessibles depuis chaque thème.
+
 ## Ce qui est réellement disponible
 
-La consolidation précédente réunit 98 références et huit PDF, dont le briefing. Une référence avec un lien externe n’est pas nécessairement un document téléchargé. Les pages thématiques indiquent explicitement « Original non déposé » dans ce cas. Les analyses sont des documents de travail ; leur niveau de contrôle est indiqué.
+Le registre réunit désormais 167 références et 80 fichiers PDF, dont le briefing et un doublon identifié. Une référence avec un lien externe n’est pas nécessairement un document téléchargé. Les pages thématiques indiquent explicitement « Original non déposé » dans ce cas. Les analyses sont des documents de travail ; leur niveau de contrôle est indiqué.
 
 ## À quoi servent les autres dossiers ?
 

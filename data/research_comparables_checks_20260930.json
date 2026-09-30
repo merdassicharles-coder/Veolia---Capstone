@@ -1,0 +1,460 @@
+[
+  {
+    "title": "Annual Report 2025",
+    "issuer": "EnviTec Biogas AG",
+    "url": "https://www.envitec-biogas.com/fileadmin/JavaScript/PDF/GB/GB_EN/2025_Annual_Report_EN.pdf",
+    "date_confirmed": "2026-05-15",
+    "date_evidence": "https://www.envitec-biogas.com/news/envitec-biogas-reports-solid-performance-in-fiscal-year-2025-short-term-burdens-dampen-outlook-for-2026-growth-prospects-from-2027-onwards",
+    "physical_page_count": 39,
+    "physical_pages_relevant": {
+      "identity": [
+        1,
+        3
+      ],
+      "ebitda": [
+        2,
+        16,
+        17
+      ],
+      "debt": [
+        17,
+        24,
+        34,
+        35
+      ],
+      "capex": [
+        25
+      ],
+      "production": [
+        5,
+        7,
+        14
+      ]
+    },
+    "findings": [
+      "Exercice civil2025 consolidé, avec comparatif2024; comptabilité allemande HGB, non IFRS.",
+      "Double pagination: une page PDF peut contenir deux pages imprimées. Bilan et résultat présentent année courante en EUR et comparative en kEUR.",
+      "EBITDA inclut contribution des participations mises en équivalence; distinguer revenus et total output. Table HTML IR présente une inversion possible des deux postes2024; PDF fait foi.",
+      "Flux capex corporels/incorporels distincts acquisitions et participations; ne pas prendre totalité cash investing comme capex."
+    ],
+    "source_id": "SRC-comparables-20260928-annual-report-2025",
+    "file_path": "raw/SRC-comparables-20260928-annual-report-2025.pdf",
+    "control_scope": "Identité et pagination PDF, lecture textuelle ciblée des pages indiquées et contrôle de provenance; pas audit financier ni revue visuelle exhaustive des tableaux. Les pages sont des localisateurs; aucune valorisation calculée.",
+    "control_date": "2026-09-30"
+  },
+  {
+    "title": "Annual Report 2024",
+    "issuer": "EnviTec Biogas AG",
+    "url": "https://www.envitec-biogas.com/fileadmin/ns_theme_envitec/PDFs/IR/Hauptversammlung/2025/EnviTec_Biogas_AnnualReport24_EN.pdf",
+    "date_confirmed": "2025-05-16",
+    "date_evidence": "https://www.envitec-biogas.com/fileadmin/ns_theme_envitec/downloads/ir_releases/2025/EnviTec_Biogas_shows_robust_performance_at_a_high_level_following_record_years.pdf",
+    "physical_page_count": 37,
+    "physical_pages_relevant": {
+      "identity": [
+        1,
+        3
+      ],
+      "ebitda": [
+        2,
+        14
+      ],
+      "debt": [
+        15,
+        22,
+        32,
+        33
+      ],
+      "capex": [
+        23
+      ],
+      "production": [
+        5,
+        11,
+        14
+      ]
+    },
+    "findings": [
+      "Exercice civil2024 consolidé avec comparatif2023; HGB.",
+      "PDF en doubles pages; unités EUR pour2024 et kEUR pour2023. EBITDA défini par émetteur, contribution participations à considérer.",
+      "Cash de bilan et cash du tableau de flux ne sont pas interchangeables sans vérifier note de rapprochement.",
+      "Production/exploitation de centrales, construction et services: société mixte, pas producteur biométhane pur."
+    ],
+    "source_id": "SRC-comparables-20260928-annual-report-2024",
+    "file_path": "raw/SRC-comparables-20260928-annual-report-2024.pdf",
+    "control_scope": "Identité et pagination PDF, lecture textuelle ciblée des pages indiquées et contrôle de provenance; pas audit financier ni revue visuelle exhaustive des tableaux. Les pages sont des localisateurs; aucune valorisation calculée.",
+    "control_date": "2026-09-30"
+  },
+  {
+    "title": "Annual Report 2024/2025",
+    "issuer": "Verbio SE",
+    "url": "https://www.verbio.de/fileadmin/user_upload/Verbio/Investor-Relations/finanzberichte/FY_2025/Verbio_Group_Annual_Report_2024_2025.pdf",
+    "date_confirmed": "unknown",
+    "date_evidence": "https://www.verbio.de/en/investor-relations/reports-presentations-earnings-calls/",
+    "physical_page_count": 207,
+    "physical_pages_relevant": {
+      "identity": [
+        1,
+        2
+      ],
+      "ebitda": [
+        3,
+        5,
+        37
+      ],
+      "debt": [
+        4,
+        40
+      ],
+      "capex": [
+        3,
+        39,
+        40
+      ],
+      "production": [
+        3,
+        5
+      ]
+    },
+    "findings": [
+      "Exercice du1juillet2024 au30juin2025; états consolidés IFRS.",
+      "Date publication non confirmée: pages officielles présentent dates divergentes, conserver unknown.",
+      "Segment Bioethanol/Biomethane combiné: EBITDA segment ne peut être attribué au seul biométhane.",
+      "Dette nette définie par émetteur inclut cash des comptes ségrégués; distinguer capex immobilisations corporelles du total investissements."
+    ],
+    "source_id": "SRC-comparables-20260928-annual-report-2024-2025",
+    "file_path": "raw/SRC-comparables-20260928-annual-report-2024-2025.pdf",
+    "control_scope": "Identité et pagination PDF, lecture textuelle ciblée des pages indiquées et contrôle de provenance; pas audit financier ni revue visuelle exhaustive des tableaux. Les pages sont des localisateurs; aucune valorisation calculée.",
+    "control_date": "2026-09-30"
+  },
+  {
+    "title": "Annual Report 2023/2024",
+    "issuer": "Verbio SE",
+    "url": "https://www.verbio.de/fileadmin/user_upload/Verbio/Investor-Relations/finanzberichte/en/20240926_Verbio_Annual_Report_FY_2023_2024.pdf",
+    "date_confirmed": "2024-09-26",
+    "date_evidence": "https://www.verbio.de/en/investor-relations/reports-presentations-earnings-calls/",
+    "physical_page_count": 204,
+    "physical_pages_relevant": {
+      "identity": [
+        1,
+        2
+      ],
+      "ebitda": [
+        3,
+        5,
+        36
+      ],
+      "debt": [
+        4,
+        39
+      ],
+      "capex": [
+        3,
+        39
+      ],
+      "production": [
+        3,
+        5
+      ]
+    },
+    "findings": [
+      "Exercice du1juillet2023 au30juin2024; états consolidés IFRS.",
+      "EBITDA groupe et segment Bioethanol/Biomethane distincts; EBITDA non égal à bénéfice net IFRS.",
+      "Dette nette inclut soldes de trésorerie sur comptes ségrégués; lire définition page39.",
+      "Production biométhane en unités énergie distinctes des tonnes bioéthanol/biodiesel."
+    ],
+    "source_id": "SRC-comparables-20260928-annual-report-2023-2024",
+    "file_path": "raw/SRC-comparables-20260928-annual-report-2023-2024.pdf",
+    "control_scope": "Identité et pagination PDF, lecture textuelle ciblée des pages indiquées et contrôle de provenance; pas audit financier ni revue visuelle exhaustive des tableaux. Les pages sont des localisateurs; aucune valorisation calculée.",
+    "control_date": "2026-09-30"
+  },
+  {
+    "title": "Annual Report 2025/2026",
+    "issuer": "Verbio SE",
+    "url": "https://www.verbio.de/fileadmin/user_upload/Verbio/Investor-Relations/finanzberichte/FY_2026/Geschaeftsbericht_2026_EN_PW.pdf",
+    "date_confirmed": "2026-09-24",
+    "date_evidence": "https://www.verbio.de/en/investor-relations/reports-presentations-earnings-calls/",
+    "physical_page_count": 239,
+    "physical_pages_relevant": {
+      "identity": [
+        1,
+        2
+      ],
+      "ebitda": [
+        3,
+        5,
+        37
+      ],
+      "debt": [
+        4,
+        40
+      ],
+      "capex": [
+        3,
+        39,
+        40
+      ],
+      "production": [
+        3,
+        5,
+        37
+      ]
+    },
+    "findings": [
+      "Exercice du1juillet2025 au30juin2026; états consolidés IFRS; couverture et pagination confirmées localement.",
+      "Pages3/5 signalent ajustements des statistiques trimestrielles antérieures: conserver versions et périodes.",
+      "Dette nette inclut position de trésorerie ajustée liée aux dérivés; définition page40 à rapprocher des comptes ségrégués des versions antérieures.",
+      "EBITDA groupe et segment mixte Bioethanol/Biomethane; ne pas isoler biométhane sans ventilation complémentaire."
+    ],
+    "source_id": "SRC-comparables-20260928-annual-report-2025-2026",
+    "file_path": "raw/SRC-comparables-20260928-annual-report-2025-2026.pdf",
+    "control_scope": "Identité et pagination PDF, lecture textuelle ciblée des pages indiquées et contrôle de provenance; pas audit financier ni revue visuelle exhaustive des tableaux. Les pages sont des localisateurs; aucune valorisation calculée.",
+    "control_date": "2026-09-30"
+  },
+  {
+    "title": "2025 Annual Report / Form 10-K",
+    "issuer": "Montauk Renewables Inc.",
+    "url": "https://ir.montaukrenewables.com/static-files/43baba67-8adc-4185-9fa0-c62195d2c49f",
+    "date_confirmed": "2026-03-11",
+    "date_evidence": "https://ir.montaukrenewables.com/sec-filings/sec-filing/10-k/0001193125-26-102364",
+    "physical_page_count": 239,
+    "physical_pages_relevant": {
+      "identity": [
+        1
+      ],
+      "ebitda": [
+        55,
+        56
+      ],
+      "debt": [
+        56,
+        57,
+        81
+      ],
+      "capex": [
+        57,
+        58
+      ],
+      "production": [
+        44,
+        49,
+        50,
+        51
+      ]
+    },
+    "findings": [
+      "Form10-K exercice clos31décembre2025; consolidé US GAAP, annexes ajoutées au PDF.",
+      "Rapprochement net income→EBITDA→Adjusted EBITDA page56: EBITDA et Adjusted EBITDA sont non-GAAP.",
+      "Dette avant frais, valeur comptable et échéances sont distinctes. Refinancement post-clôture expliqué dans note dette.",
+      "RNG et production électrique renouvelable composent groupe; revenus fortement dépendants attributs environnementaux RIN."
+    ],
+    "source_id": "SRC-comparables-20260928-2025-annual-report-form-10-k",
+    "file_path": "raw/SRC-comparables-20260928-2025-annual-report-form-10-k.pdf",
+    "control_scope": "Identité et pagination PDF, lecture textuelle ciblée des pages indiquées et contrôle de provenance; pas audit financier ni revue visuelle exhaustive des tableaux. Les pages sont des localisateurs; aucune valorisation calculée.",
+    "control_date": "2026-09-30"
+  },
+  {
+    "title": "2024 Annual Report / Form 10-K",
+    "issuer": "Montauk Renewables Inc.",
+    "url": "https://ir.montaukrenewables.com/static-files/761a3508-a8ba-4691-becb-68d36d1f9c27",
+    "date_confirmed": "2025-03-14",
+    "date_evidence": "https://ir.montaukrenewables.com/financial-information/annual-reports",
+    "physical_page_count": 128,
+    "physical_pages_relevant": {
+      "identity": [
+        1
+      ],
+      "ebitda": [
+        57,
+        58
+      ],
+      "debt": [
+        58,
+        84
+      ],
+      "capex": [
+        59
+      ],
+      "production": [
+        45,
+        50,
+        51,
+        52
+      ]
+    },
+    "findings": [
+      "Form10-K exercice clos31décembre2024; US GAAP.",
+      "Rapprochement EBITDA/Adjusted EBITDA et résultat net aux pages57–58; ces indicateurs sont non-GAAP.",
+      "Capex prévisionnels développement et hors développement présentés séparément page59; ne pas confondre avec réalisé.",
+      "Dette nominale avant frais page58 et valeur comptable note13 page84."
+    ],
+    "source_id": "SRC-comparables-20260928-2024-annual-report-form-10-k",
+    "file_path": "raw/SRC-comparables-20260928-2024-annual-report-form-10-k.pdf",
+    "control_scope": "Identité et pagination PDF, lecture textuelle ciblée des pages indiquées et contrôle de provenance; pas audit financier ni revue visuelle exhaustive des tableaux. Les pages sont des localisateurs; aucune valorisation calculée.",
+    "control_date": "2026-09-30"
+  },
+  {
+    "title": "Form 10-Q for quarter ended June 30 2026",
+    "issuer": "Montauk Renewables Inc.",
+    "url": "https://ir.montaukrenewables.com/static-files/25c23465-e1de-4c49-a4ec-17702939c3a1",
+    "date_confirmed": "2026-08-05",
+    "date_evidence": "https://ir.montaukrenewables.com/financial-information/sec-filings/",
+    "physical_page_count": 60,
+    "physical_pages_relevant": {
+      "identity": [
+        1
+      ],
+      "ebitda": [
+        46,
+        47
+      ],
+      "debt": [
+        20,
+        21,
+        47,
+        48
+      ],
+      "capex": [
+        48
+      ],
+      "production": [
+        36,
+        37,
+        38,
+        43,
+        45
+      ]
+    },
+    "findings": [
+      "Form10-Q période close30juin2026; données trimestre et semestre; consolidé non audité US GAAP.",
+      "Page47 rapprochement EBITDA/Adjusted EBITDA au net income(loss) pour six mois.",
+      "Nouvelles conditions financières de crédit page48: ne pas reprendre automatiquement covenants de la clôture2025.",
+      "Les capex page48 sont une prévision2026, pas montant dépensé semestre."
+    ],
+    "source_id": "SRC-comparables-20260928-form-10-q-for-quarter-ended-june-30-2026",
+    "file_path": "raw/SRC-comparables-20260928-form-10-q-for-quarter-ended-june-30-2026.pdf",
+    "control_scope": "Identité et pagination PDF, lecture textuelle ciblée des pages indiquées et contrôle de provenance; pas audit financier ni revue visuelle exhaustive des tableaux. Les pages sont des localisateurs; aucune valorisation calculée.",
+    "control_date": "2026-09-30"
+  },
+  {
+    "title": "2025 Summary Annual Report and Form 10-K",
+    "issuer": "Clean Energy Fuels Corp.",
+    "url": "https://investors.cleanenergyfuels.com/_assets/_455fc2d3edb8fe21cbf4dd81dc4451ef/cleanenergyfuels/db/959/9579/annual_report/CLNE+2025+Annual+Report.pdf",
+    "date_confirmed": "unknown",
+    "date_evidence": "https://investors.cleanenergyfuels.com/company-information/annual-reports",
+    "physical_page_count": 128,
+    "physical_pages_relevant": {
+      "identity": [
+        1,
+        3
+      ],
+      "ebitda": [],
+      "debt": [
+        53,
+        54,
+        89,
+        91,
+        92
+      ],
+      "capex": [
+        52,
+        53,
+        54
+      ],
+      "production": [
+        5,
+        45
+      ]
+    },
+    "findings": [
+      "Rapport annuel éditorial et Form10-K exercice clos31décembre2025; consolidé US GAAP.",
+      "Date propre de publication édition annuelle non établie; ne pas substituer date dépôt10-K ni date liée assemblée.",
+      "Aucun EBITDA repéré par recherche textuelle dans ce PDF; utiliser communiqué avec rapprochement non-GAAP avant toute comparaison EBITDA.",
+      "RNG vendu/distribué et GGEs incluant services ne sont pas production propre; JV et achats tiers importants.",
+      "Dette principale, valeur comptable, juste valeur et engagements incluant intérêts diffèrent; pages53/54/89."
+    ],
+    "source_id": "SRC-comparables-20260928-2025-summary-annual-report-and-form-10-k",
+    "file_path": "raw/SRC-comparables-20260928-2025-summary-annual-report-and-form-10-k.pdf",
+    "control_scope": "Identité et pagination PDF, lecture textuelle ciblée des pages indiquées et contrôle de provenance; pas audit financier ni revue visuelle exhaustive des tableaux. Les pages sont des localisateurs; aucune valorisation calculée.",
+    "control_date": "2026-09-30"
+  },
+  {
+    "title": "2024 Annual Report",
+    "issuer": "Clean Energy Fuels Corp.",
+    "url": "https://investors.cleanenergyfuels.com/_assets/_455fc2d3edb8fe21cbf4dd81dc4451ef/cleanenergyfuels/db/959/9542/annual_report/Clean+Energy+2024+Annual+Report.pdf",
+    "date_confirmed": "unknown",
+    "date_evidence": "https://investors.cleanenergyfuels.com/company-information/annual-reports",
+    "physical_page_count": 124,
+    "physical_pages_relevant": {
+      "identity": [
+        1,
+        3
+      ],
+      "ebitda": [],
+      "debt": [
+        52,
+        53,
+        88,
+        89,
+        90
+      ],
+      "capex": [
+        51,
+        52,
+        53
+      ],
+      "production": [
+        5,
+        40
+      ]
+    },
+    "findings": [
+      "Rapport annuel et Form10-K exercice clos31décembre2024; consolidé US GAAP.",
+      "Date propre de publication non établie; unknown conservé.",
+      "Aucun EBITDA repéré par recherche textuelle; rapport ne fournit pas base autorisant un EBITDA ajusté inventé.",
+      "Volumes RNG distribués et servis différents production propre. Capex directs et financements JV à séparer."
+    ],
+    "source_id": "SRC-comparables-20260928-2024-annual-report",
+    "file_path": "raw/SRC-comparables-20260928-2024-annual-report.pdf",
+    "control_scope": "Identité et pagination PDF, lecture textuelle ciblée des pages indiquées et contrôle de provenance; pas audit financier ni revue visuelle exhaustive des tableaux. Les pages sont des localisateurs; aucune valorisation calculée.",
+    "control_date": "2026-09-30"
+  },
+  {
+    "title": "Form 10-Q for quarter ended June 30 2026",
+    "issuer": "Clean Energy Fuels Corp.",
+    "url": "https://investors.cleanenergyfuels.com/sec-filings/all-sec-filings/content/0001104659-26-092061/0001104659-26-092061.pdf",
+    "date_confirmed": "2026-08-06",
+    "date_evidence": "https://investors.cleanenergyfuels.com/financial-information/financial-results",
+    "physical_page_count": 71,
+    "physical_pages_relevant": {
+      "identity": [
+        1,
+        2
+      ],
+      "ebitda": [],
+      "debt": [
+        23,
+        25,
+        26,
+        48
+      ],
+      "capex": [
+        47,
+        48
+      ],
+      "production": [
+        38,
+        41
+      ]
+    },
+    "findings": [
+      "Form10-Q clos30juin2026; consolidé intermédiaire non audité US GAAP, trimestre et semestre.",
+      "Aucun EBITDA repéré par recherche textuelle; utiliser états GAAP et communiqué complémentaire pour réconciliation éventuelle.",
+      "Dette/leases principal et engagements avec intérêts à distinguer. Capex et besoins financement futurs pages47/48.",
+      "Production propre/JV, RNG vendu, volumes servicing et crédits environnementaux doivent rester séparés."
+    ],
+    "source_id": "SRC-comparables-20260928-form-10-q-for-quarter-ended-june-30-2026-955ee2",
+    "file_path": "raw/SRC-comparables-20260928-form-10-q-for-quarter-ended-june-30-2026-955ee2.pdf",
+    "control_scope": "Identité et pagination PDF, lecture textuelle ciblée des pages indiquées et contrôle de provenance; pas audit financier ni revue visuelle exhaustive des tableaux. Les pages sont des localisateurs; aucune valorisation calculée.",
+    "control_date": "2026-09-30"
+  }
+]

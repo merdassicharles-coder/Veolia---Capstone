@@ -119,3 +119,18 @@ Mise à jour : Codex, 2026-09-27. Décision humaine de clôture : non enregistr�
 
 ## Travaux transversaux
 Contrôler les références sans original ; compléter les dates inconnues sans inventer de précision ; rapprocher les doublons ; réaliser une seconde revue indépendante des affirmations destinées au mémoire. Le registre ne constitue pas une couverture exhaustive de toutes les publications 2024–2026.
+
+## Mise à jour documentaire du 30 septembre 2026
+
+Cette mise à jour décrit les acquisitions de documents ; les anciennes entrées restent historiques et ne valent pas résolution humaine.
+
+- GAP-20260927-veolia-2025-annual-report : original URD 2025 désormais archivé, avec URD 2024. Clarifier la date de diffusion de la version anglaise versus dépôt AMF avant usage final.
+- GAP-20260927-veolia-debt-maturity-echeancier : comptes consolidés FY2025 désormais présents ; tableau d’échéances repéré page PDF 66 (SRC-veolia-20260928-comptes-consolides-fy2025). Extraction complète du modèle toujours à faire.
+- GAP-20260927-rating-reports : ajout des rapports S&P et Moody’s 2024/2025 et des prospectus EMTN 2024–2026 ; chronologie et méthodologie à rapprocher.
+- GAP-20260927-pdf-download-manuel : communiqué H1 2026 et rapport annuel Renewi 2025 archivés.
+- GAP-20260927-greenup-capital-markets-day : ancien lien CMD en erreur 404, pas de faux PDF ajouté ; recherche d’une URL corrigée à poursuivre.
+- GAP-20260927-bioenergy-comparables-depth : rapports annuels/intermédiaires des quatre comparables ajoutés, avec fiches de pages. Valorisation et synchronisation des dates toujours à réaliser.
+- Textes EUR-Lex : références conservées, réponses reçues non PDF ; aucun contenu de contrôle robot ne fait passer une source en téléchargée.
+- Air Liquide et une copie BASF–ENGIE : accès PDF refusé. Une autre version officielle BASF–ENGIE est disponible dans le lot, sans substitution silencieuse des références.
+
+La date de la collecte est le 28 septembre 2026. La publication au dépôt est préparée le 30 septembre ; elle n’implique pas une nouvelle veille exhaustive des publications sorties entre ces dates.
